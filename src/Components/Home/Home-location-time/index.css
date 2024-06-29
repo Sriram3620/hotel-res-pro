@@ -1,0 +1,88 @@
+.bar-outline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+    margin: 10px;
+    padding: 20px;
+    width: 80vw;
+    margin-left: 10%;
+    border: 2px solid black;
+  }
+  
+  .bar-content-1,
+  .bar-content-2,
+  .bar-content-3 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.8s ease, color 0.8s ease;
+    border-radius: 70px;
+    border-right: 2px solid black;
+    margin: 2;
+  }
+  
+  .loc-icon {
+    font-size: 30px;
+    transition: transform 0.5s ease;
+  }
+  
+  .loc-icon:hover {
+    transform: rotate(360deg);
+  }
+  
+  .bar-word-content {
+    margin-top: 10px;
+  }
+  
+  .input {
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0.4vw;
+    border: none;
+    outline: none;
+    padding: 0.4vw;
+    max-width: 190px;
+    transition: .4s;
+  }
+  
+  .date-pick {
+    border: none;
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .bar-content-1,
+    .bar-content-2,
+    .bar-content-3 {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  .bar-word-content{
+    margin-left: 5vh;
+  }
+  .date-box{
+    border: none;
+    width: 10vw;
+  }
+  .input{
+    text-align: center;
+  }
+  @media (max-width:576px) {
+    .bar-outline {
+      border: none;
+    }
+    .date-box{
+      width: 30vw;
+    }
+  }
+  

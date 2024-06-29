@@ -1,0 +1,29 @@
+.home-main_howimg{
+    width:60%;
+    height:60%;
+    margin: 15px;
+   align-content: center;
+   align-self: center;
+   align-items: center;
+  /* // margin-left: 50px; */
+}
+.home-main_howpara{ 
+ color: rgb(156 163 175);;
+}   
+.Home-main_howmainHeading{
+    font-weight: bolder;
+}
+.Home-main_howmainPara{
+    color: rgb(156 163 175);;
+}
+.bgexplore{
+    background-image: url("https://chisfis-template.vercel.app/static/media/VectorHIW.2a56b4d0aa5690494df25bc0b2bb3bf6.svg");
+    height: 25vh;
+    width: fit-content;
+}
+
+@media (max-width:576px) {
+    .bgexplore{
+        background-image: none;
+    }
+}

@@ -1,0 +1,116 @@
+.nav-items
+{
+    display: flex;
+    justify-content: space-around;
+    width: 45vw;
+     
+}
+.logo
+{
+    height: 60px;
+    width: 100px;
+}
+.nav-item-home
+{
+    color: black!important;
+    font-weight:bold;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10px;
+    
+}
+
+.nav-item-cities
+{
+    color: black!important;
+    font-weight:bold;
+    font-size: 20px;
+    border-radius: 20px;
+
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.nav-search-con
+{
+    display: flex;
+    justify-content: space-between;
+    width: 35vw;
+    height: 34px;
+}
+
+.search-con
+{
+    border-color: black;
+    border-width: 2px;
+   border-style: solid;
+}
+
+.search-box
+{
+    height: 25px;
+    border-color: transparent;
+    outline: none;
+}
+
+.search-btn
+{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* align-items: center; */
+    width: 40px;
+    background-color: transparent;
+    border-color: transparent;
+    outline: none;
+    outline-color:transparent ;
+}
+
+.search-icon
+{
+    font-size: 15px;
+}
+
+.signup-btn{
+    background-color:#6546E5;
+    color: white;
+    height: 40px;
+    width: 90px;
+    font-size: 14px;
+    border-radius: 15px;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+@media (max-width:576px)
+{
+    .nav-item-home{
+        margin-top: 10px;
+    }
+    .nav-item-cities{
+        margin-left: 6px;
+        padding-bottom: 10px;
+    }
+    .nav-search-con{
+        flex-direction: column;
+        width: 60vw;
+        margin-top: 40px;
+        margin-left: 20px;
+    
+    } 
+    .signup-btn
+    {
+        margin-top: 20px;
+        height: 60px;
+    }
+    .search-con
+    {
+        border-radius: 14px;
+    }
+}
+

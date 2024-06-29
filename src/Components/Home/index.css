@@ -1,0 +1,51 @@
+.home-main_img {
+    width: 90%;
+    height: 100%;
+  }
+  .home-main{
+      overflow-x: hidden;
+  }
+  
+  .home-main_container {
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+  .home-main_heading {
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .home-main_para {
+    color: grey;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .home-main_btn {
+    height: fit-content;
+    text-align: center;
+    width: 250px;
+    padding: 15px;    
+    border-radius: 40px;
+    border-color: transparent;
+    color: white;
+    font-size: larger;
+    background-color: rgba(79, 70, 299, 1);
+  }
+  .home-benefit_img {
+    width: 80%;
+    height: 70%;
+  }
+  .home-benefit_text-para1{
+    color:rgb(22 101 52 );
+    background-color: rgb(220 252 231);
+    width: fit-content;
+    height: fit-content;
+    padding:5px;
+    text-align: center;
+    border-radius:10px;
+  }
+  .home-benefit_text-para2{
+    color: rgb(156 163 175);
+   
+  
+  }
